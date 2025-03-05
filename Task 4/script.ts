@@ -6,3 +6,8 @@ Pvz.:
   "kebabas" --> 1010101
   "a"       --> 1
 -------------------------------------------------------------------------- */
+
+function textToNumbers(text: string): string {
+  return Array.from({ length: text.length }, (_, i) => (i % 2 === 0 ? "1" : "0")).join("");
+}
+
