@@ -7,4 +7,15 @@ Pvz.:
   "scissors", "paper" --> "Player 1 won!"
   "scissors", "rock" --> "Player 2 won!"
   "paper", "paper" --> "Draw!"
--------------------------------------------------------------------------- */ 
+-------------------------------------------------------------------------- */
+function rockPaperScissors(player1, player2) {
+    const rules = {
+        "scissors": "paper",
+        "paper": "rock",
+        "rock": "scissors"
+    };
+    if (player1 === player2) {
+        return "Draw!";
+    }
+    return rules[player1] === player2 ? "Player 1 won!" : "Player 2 won!";
+}
