@@ -1,0 +1,21 @@
+{
+  "name": "nba",
+  "version": "1.0.0",
+  "description": "nba",
+  "homepage": "https://github.com/EimantasJaskonis/TS-atsiskaitymas#readme",
+  "bugs": {
+    "url": "https://github.com/EimantasJaskonis/TS-atsiskaitymas/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EimantasJaskonis/TS-atsiskaitymas.git"
+  },
+  "license": "ISC",
+  "author": "E",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json": "json-server ./NBA.json --port 8080"
+  }
+}

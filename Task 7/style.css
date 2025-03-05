@@ -15,16 +15,63 @@
   flex-direction: column;
   align-items: center;
   background-color: #222;
+  padding: 20px 0;
 }
 
 h1 {
   color: #fff;
+  margin-bottom: 20px;
 }
 
 #output {
   width: 80%;
-  margin-top: 25px;
   padding: 30px;
   border-radius: 5px;
   background-color: #fff;
+}
+
+.team-card {
+  background-color: #fff;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-card h2 {
+  color: #222;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+.players-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.player-card {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+}
+
+.player-card p {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.player-card a {
+  color: #0066cc;
+  text-decoration: none;
+  font-size: 0.9em;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.player-card a:hover {
+  text-decoration: underline;
+  color: #004999;
 }
