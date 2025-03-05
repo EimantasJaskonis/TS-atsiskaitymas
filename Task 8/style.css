@@ -12,6 +12,11 @@
   min-height: 100vh;
   min-width: calc(100vw - (100vw - 100%));
   background-color: #fec631;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
 
 .headline {
@@ -20,6 +25,7 @@
   text-align: center;
   color: #000;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 form {
@@ -27,23 +33,41 @@ form {
   margin: 50px auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+input[type="number"] {
+  padding: 15px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  border: 2px solid #000;
+  outline: none;
+  width: 80%;
+  cursor: pointer;
 }
 
 #search {
   width: 65%;
-  margin: 0;
+  margin: 3%;
   padding: 20px;
   outline: 0;
-  border: 0;
+  border: 2px solid black;
+  border-radius: 5px;
   font-size: 1.1em;
+  background-color: #fff;
+  cursor: pointer;
 }
 
 #submit-btn {
   width: 35%;
   background-color: #f7f7f7;
-  border: 0;
+  border: 2px solid black;
+  border-radius: 5px;
   outline: 0;
   font-size: 1.1em;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 #submit-btn:hover {
@@ -52,14 +76,32 @@ form {
   color: #fff;
 }
 
+#output {
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 20px;
+}
+
 /* Tablet */
 @media screen and (min-width: 768px) {
   .headline {
     font-size: 3.5em;
   }
 
+  input[type="number"],
   #search,
   #submit-btn {
-    font-size: 2em;
+    font-size: 1.5em;
+  }
+
+  #output {
+    font-size: 1.5em;
   }
 }

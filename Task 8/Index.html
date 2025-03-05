@@ -8,7 +8,7 @@
   </head>
   <body>
     <header>
-      <!-- Header code-->
+      <h2>Length Units Converter</h2>
     </header>
 
     <main>
@@ -18,13 +18,20 @@
         <form>
           <input type="number" id="meter" name="meter" placeholder="Enter meters..." />
         </form>
-        <!-- Place for output after entry change -->
+          <select id="search">
+            <option value="centimeters">Centimeters (cm)</option>
+            <option value="inches">Inches (in)</option>
+            <option value="feet">Feet (ft)</option>
+            <option value="miles">Miles (mi)</option>
+            <option value="yards">Yards (yd)</option>
+          </select>
+          <button type="submit" id="submit-btn">Convert</button>
         <div id="output"></div>
       </div>
     </main>
 
     <footer>
-      <!-- Footer code -->
+      <p>&copy; Meter</p>
     </footer>
   </body>
 </html>
