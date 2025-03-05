@@ -1,33 +1,33 @@
 "use strict";
-let one = {
+let one2 = {
     vardas: '',
     pavarde: '',
     amzius: 0
 };
-let two = {
+let two2 = {
     vardas: '',
     pavarde: '',
     amzius: 0
 };
-two = {
+two2 = {
     vardas: '',
     pavarde: '',
     amzius: 0,
     ugis: 0,
     svoris: 0
 };
-let three = {
+let three2 = {
     vardas: '',
     pavarde: '',
     lytis: 'vyras'
 };
-three = {
+three2 = {
     vardas: '',
     pavarde: '',
     lytis: 'moteris'
 };
-three = {
-    vardas: '',
-    pavarde: '',
-    lytis: 'sraigtasparnis' // error
-};
+// three2 = {
+// vardas: '',
+// pavarde: '',
+// // lytis: 'sraigtasparnis' // error
+// };
