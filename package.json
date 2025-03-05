@@ -16,6 +16,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "json": "json-server ./NBA.json --port 8080"
+    "json": "json-server ./NBA.json --port 8080",
+    "json": "json-server ./teams.json --port 8080",
+    "json": "json-server ./players.json --port 8080"
   }
 }
